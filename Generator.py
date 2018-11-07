@@ -77,7 +77,7 @@ def Password():
     for i in range(a):
         GeneratePasswords(n3, n8)
 
-def Start():
+def Main():
     os.system("cls")
     yn = input("[*] Do You Want Generate Passwords Or Pins?![Pass/Pins] -> ")
     yn = yn.lower()
@@ -88,4 +88,5 @@ def Start():
     else:
         print("[*] Sorry, I Don't Understand...")
 
-Start()
+if __name__ == '__main__':
+    Main()
